@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Montserrat as the base font for the entire app */
+body {
+  @apply font-montserrat;
+}
