@@ -21,7 +21,7 @@ const AddToDo: React.FC<AddTodoProps> = ({ onAdd }) => {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         placeholder="Add a new task..."
-        className="flex-1 border font-montserrat border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
+        className="flex-1 border font-montserrat border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 break-words"
       />
       <button
         onClick={handleAdd}
